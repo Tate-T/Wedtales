@@ -1,0 +1,48 @@
+:root {
+    --text-color: #2E2E2E;
+    --slogan-color: #949494;
+    --button-text-color: #ECECEC;
+}
+
+body {
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.header-logo {
+    color: var(--text-color, #2E2E2E);
+    font-family: Indie Flower;
+    font-size: 58.753px;
+}
+
+.header-link {
+    color: var(--text-color, #2E2E2E);
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.header-tel {
+    color: var(--text-color, #2E2E2E);
+
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.hero-title {
+    color: var(--text-color, #2E2E2E);
+    font-family: Indie Flower;
+    font-size: 188px;
+}
+
+.hero-text {
+    color: var(--text-color, #2E2E2E);
+    font-family: Updock;
+    font-size: 62px;
+}
+
+.hero-button {
+    color: var(--button-text-color, #ECECEC);
+    font-size: 30px;
+    font-weight: 300;
+    background: var(--text-color, #2E2E2E);
+}
